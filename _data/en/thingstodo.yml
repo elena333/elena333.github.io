@@ -10,8 +10,8 @@
 - title: Catedral Vieja y Nueva
   subtitle: Description
   modal-id: 2
-  img: 2.jpg
-  thumbnail: 2.jpg
+  img: Catedral.jpg
+  thumbnail: Catedral.jpg
   drive: X minutes
   link: https://goo.gl/maps/MY49ntTHETuat5jN8
   description: Dos catedrales que narran la evolución arquitectónica y artística de Salamanca a lo largo de los siglos.
@@ -19,8 +19,8 @@
 - title: Universidad de Salamanca
   subtitle: Description
   modal-id: 3
-  img: 3.jpg
-  thumbnail: 3.jpg
+  img: Universidad.jpg
+  thumbnail: Universidad.jpg
   drive: X minutes
   link: https://goo.gl/maps/MY49ntTHETuat5jN8
   description: Una de las universidades más antiguas de Europa, famosa por su fachada plateresca y su rica historia académica.
@@ -28,8 +28,8 @@
 - title: Casa Lis
   subtitle: Description
   modal-id: 4
-  img: 4.jpg
-  thumbnail: 4.jpg
+  img: Lis.jpg
+  thumbnail: Lis.jpg
   drive: X minutes
   link: https://goo.gl/maps/MY49ntTHETuat5jN8
   description: Este edificio modernista alberga el Museo de Art Nouveau y Art Déco, con una impresionante colección de objetos y muebles de época.
@@ -37,8 +37,8 @@
 - title: Puente Romano
   subtitle: Description
   modal-id: 5
-  img: 5.jpg
-  thumbnail: 5.jpg
+  img: Puente.jpg
+  thumbnail: Puente.jpg
   drive: X minutes
   link: https://goo.gl/maps/MY49ntTHETuat5jN8
   description: Un antiguo puente que cruza el río Tormees, ofreciendo vistas panorámicas de la ciudad.
@@ -46,8 +46,8 @@
 - title: Huerto de Calixto y Melibea
   subtitle: Description
   modal-id: 6
-  img: 6.jpg
-  thumbnail: 6.jpg
+  img: Huerto.jpg
+  thumbnail: Huerto.jpg
   drive: X minutes
   link: https://goo.gl/maps/MY49ntTHETuat5jN8
   description: Un jardín que evoca la famosa obra literaria de Fernando de Rojas "La Celestina".
