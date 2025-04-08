@@ -848,6 +848,10 @@ section#contact .text-danger {
     color: #e74c3c;
 }
 
+section#venue .google-maps {
+    margin-bottom: 90px;
+}
+
 footer {
     padding: 25px 0;
     text-align: center;
