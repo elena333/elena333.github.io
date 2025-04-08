@@ -1,10 +1,10 @@
-url: https://walice.github.io
+url: https://elena333.github.io
 #baseurl: /wedding-template
 
 # Site settings
-title: Cat + Dog
-email: petsgetmarried@wedding.com
-description: "Template for a wedding website."
+title: Carmen y Rafael
+email: helna.20.3@gmail.com
+description: "Carmen y Rafa se casan"
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 # social:
@@ -23,4 +23,4 @@ description: "Template for a wedding website."
 markdown: kramdown
 permalink: pretty
 
-include: ['_en_pages', '_fr_pages']
+include: ['_en_pages']
