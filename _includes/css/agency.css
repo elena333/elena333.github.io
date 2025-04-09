@@ -330,7 +330,7 @@ fieldset[disabled] .btn-m.active {
     .navbar-default {
         padding: 25px 0;
         border: 0;
-        background-color: transparent;
+        background-color: #222222cf;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -363,7 +363,7 @@ header {
     color: #fff;
     background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/backgrounds/Elefantes.jpg');
-    background-position: center center;
+    background-position: center;
     /*background-position: top center;*/
     background-repeat: none;
     -webkit-background-size: cover;
@@ -407,7 +407,7 @@ header .intro-text .intro-heading {
     background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/backgrounds/Elefantes.jpg');
     /*background-position: center center;*/
-    background-position: top center;
+    background-position: center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
