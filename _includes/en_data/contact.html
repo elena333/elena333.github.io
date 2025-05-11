@@ -1,26 +1,38 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script>
-    $(function(){
-    $(".ajaxForm").submit(function(e){
+
+<script>
+    const form = document.getElementById("form");
+
+    form.addEventListener("submit", function (e) {
+        const formData = new FormData(form);
         e.preventDefault();
-        var href = $(this).attr("action");
-        $.ajax({
-            type: "POST",
-            dataType: "json",
-            url: href,
-            data: $(this).serialize(),
-            success: function(response){
-                if(response.status == "success"){
-                    alert('Gracias, tu mensaje se ha enviado.');
-                    window.location.href = 'https://carmenyrafa.com/#contact';
-                }else{
-                    alert("Ha ocurrido un error: " + response.message);
-                }
-            }
+        var object = {};
+        formData.forEach((value, key) => {
+            object[key] = value;
         });
-    });
-    });
+        var json = JSON.stringify(object);
+        result.innerHTML = "Please wait...";
+
+        fetch("https://api.web3forms.com/submit", {
+            method: "POST",
+            headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json"
+            },
+            body: json
+        })
+            .then(async (response) => {
+            let json = await response.json();
+            if (response.status == 200) {
+                alert('Gracias, tu mensaje se ha enviado.');
+                window.location.href = 'https://carmenyrafa.com/#contact';
+            } else {
+                alert("Ha ocurrido un error: " + response.message);
+            }
+            })
+        });
 </script>
+
 <section id="contact">
     <div class="container">
         <div class="row">
