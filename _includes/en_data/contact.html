@@ -1,36 +1,45 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
 <script>
-    const form = document.getElementById("form");
+    const form = document.getElementById('form');
 
-    form.addEventListener("submit", function (e) {
-        const formData = new FormData(form);
+    form.addEventListener('submit', function(e) {
         e.preventDefault();
-        var object = {};
-        formData.forEach((value, key) => {
-            object[key] = value;
-        });
-        var json = JSON.stringify(object);
-        result.innerHTML = "Please wait...";
+        const formData = new FormData(form);
+        const object = Object.fromEntries(formData);
+        const json = JSON.stringify(object);
+        result.innerHTML = "Please wait..."
 
-        fetch("https://api.web3forms.com/submit", {
-            method: "POST",
-            headers: {
-            "Content-Type": "application/json",
-            Accept: "application/json"
-            },
-            body: json
-        })
-            .then(async (response) => {
-            let json = await response.json();
-            if (response.status == 200) {
-                alert('Gracias, tu mensaje se ha enviado.');
-                window.location.href = 'https://carmenyrafa.com/#contact';
-            } else {
-                alert("Ha ocurrido un error: " + response.message);
-            }
+        fetch('https://api.web3forms.com/submit', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: json
             })
-        });
+            .then(async (response) => {
+                let json = await response.json();
+                if (response.status == 200) {
+                    alert('Gracias, tu mensaje se ha enviado.');
+                    result.innerHTML = json.message;
+                    window.location.href = 'https://carmenyrafa.com/#contact';
+                } else {
+                    console.log(response);
+                    alert("Ha ocurrido un error: " + json.message);
+                }
+            })
+            .catch(error => {
+                console.log(error);
+                result.innerHTML = "Error!";
+            })
+            .then(function() {
+                form.reset();
+                setTimeout(() => {
+                    result.style.display = "none";
+                }, 5000);
+            });
+    });
 </script>
 
 <section id="contact">
@@ -74,6 +83,7 @@
                             <button type="submit" class="btn btn-xl">Enviar Mensaje</button>
                         </div>
                     </div>
+                    <div id="result"></div>
                 </form>
             </div>
         </div>
