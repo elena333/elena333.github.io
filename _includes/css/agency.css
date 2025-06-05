@@ -783,7 +783,7 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
+    /*background-color: #222;
     background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/backgrounds/Elephants.jpg');
     background-position: center;
@@ -791,11 +791,11 @@ section#contact {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover;*/
 }
 
 section#contact .section-heading {
-    color: #fff;
+    /*color: #fff;*/
 }
 
 section#contact .form-group {
