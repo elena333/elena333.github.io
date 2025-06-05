@@ -1,53 +1,47 @@
 - title: Plaza Mayor
-  subtitle: Description
   modal-id: 1
   img: Plaza.jpg
   thumbnail: Plaza.jpg
-  drive: X minutes
-  link: https://goo.gl/maps/MY49ntTHETuat5jN8
+  drive: Plaza Mayor
+  link: https://www.google.com/maps/place/Pl.+Mayor,+37002+Salamanca,+Spain/@40.9657171,-5.6643931,288m/data=!3m1!1e3!4m6!3m5!1s0xd3f2614348b5757:0xee2f7d62c16ebd1a!8m2!3d40.9648952!4d-5.6637362!16s%2Fg%2F11xsrd628?entry=ttu&g_ep=EgoyMDI1MDYwMy4wIKXMDSoASAFQAw%3D%3D
   description: Considerada una de las plazas más bonitas de España, es el corazón de la ciudad y un punto de encuentro imprescindible.
 
 - title: Catedral Vieja y Nueva
-  subtitle: Description
   modal-id: 2
   img: Catedral.jpg
   thumbnail: Catedral.jpg
-  drive: X minutes
-  link: https://goo.gl/maps/MY49ntTHETuat5jN8
+  drive: Catedral
+  link: https://www.google.com/maps/place/Salamanca+Cathedral/@40.960641,-5.6707913,2369m/data=!3m3!1e3!4b1!5s0xd3f261553a4a38f:0xff3f33515c3396ec!4m6!3m5!1s0xd3f266aa3658407:0xaf9de7b5c128c5d7!8m2!3d40.9606371!4d-5.665915!16zL20vMDl2cWZ2?entry=ttu&g_ep=EgoyMDI1MDYwMy4wIKXMDSoASAFQAw%3D%3D
   description: Dos catedrales que narran la evolución arquitectónica y artística de Salamanca a lo largo de los siglos.
 
 - title: Universidad de Salamanca
-  subtitle: Description
   modal-id: 3
   img: Universidad.jpg
   thumbnail: Universidad.jpg
-  drive: X minutes
-  link: https://goo.gl/maps/MY49ntTHETuat5jN8
+  drive: Universidad
+  link: https://www.google.com/maps/place/University+of+Salamanca/@40.9623165,-5.6685526,1292m/data=!3m1!1e3!4m6!3m5!1s0xd3f263ff0a73bc1:0x27cc1f187f3d98d!8m2!3d40.9613376!4d-5.6669251!16zL20vMDJzMWxy?entry=ttu&g_ep=EgoyMDI1MDYwMy4wIKXMDSoASAFQAw%3D%3D
   description: Una de las universidades más antiguas de Europa, famosa por su fachada plateresca y su rica historia académica.
 
 - title: Casa Lis
-  subtitle: Description
   modal-id: 4
   img: Lis.jpg
   thumbnail: Lis.jpg
-  drive: X minutes
-  link: https://goo.gl/maps/MY49ntTHETuat5jN8
+  drive: Casa Lis
+  link: https://www.google.com/maps/place/Fachada+sur+de+la+Casa+Lis/@40.9591717,-5.6665792,153m/data=!3m1!1e3!4m14!1m7!3m6!1s0xd3f266aa06ac2c5:0xa91b736389ab09fd!2sMuseo+Art+Nouveau+y+Art+D%C3%A9co+-+Casa+Lis!8m2!3d40.9596724!4d-5.6667852!16s%2Fg%2F121pkpjx!3m5!1s0xd3f2718881d7dab:0x107940e4c114a9ca!8m2!3d40.9593673!4d-5.6669289!16s%2Fg%2F11h_4s7y0x?entry=ttu&g_ep=EgoyMDI1MDYwMy4wIKXMDSoASAFQAw%3D%3D
   description: Este edificio modernista alberga el Museo de Art Nouveau y Art Déco, con una impresionante colección de objetos y muebles de época.
 
 - title: Puente Romano
-  subtitle: Description
   modal-id: 5
   img: Puente.jpg
   thumbnail: Puente.jpg
-  drive: X minutes
-  link: https://goo.gl/maps/MY49ntTHETuat5jN8
+  drive: Puente Romano
+  link: https://www.google.com/maps/place/Puente+Romano+de+Salamanca/@40.9581479,-5.6708768,424m/data=!3m1!1e3!4m6!3m5!1s0xd3f26470d158b25:0x10184838f554b1cc!8m2!3d40.9578351!4d-5.6701419!16s%2Fg%2F121rprps?entry=ttu&g_ep=EgoyMDI1MDYwMy4wIKXMDSoASAFQAw%3D%3D
   description: Un antiguo puente que cruza el río Tormees, ofreciendo vistas panorámicas de la ciudad.
 
 - title: Huerto de Calixto y Melibea
-  subtitle: Description
   modal-id: 6
   img: Huerto.jpg
   thumbnail: Huerto.jpg
-  drive: X minutes
-  link: https://goo.gl/maps/MY49ntTHETuat5jN8
+  drive: Huerto de Calixto y Melibea
+  link: https://www.google.com/maps/place/Huerto+de+Calixto+y+Melibea/@40.9596916,-5.667203,788m/data=!3m2!1e3!4b1!4m6!3m5!1s0xd3f266abfef867d:0x6d14655ae311c9b3!8m2!3d40.9596889!4d-5.6654863!16s%2Fg%2F1239pg_1?entry=ttu&g_ep=EgoyMDI1MDYwMy4wIKXMDSoASAFQAw%3D%3D
   description: Un jardín que evoca la famosa obra literaria de Fernando de Rojas "La Celestina".
