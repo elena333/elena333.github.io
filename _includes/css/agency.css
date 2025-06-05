@@ -784,10 +784,14 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
+    background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/backgrounds/Elephants.jpg');
-    background-size: 100% 100%;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 section#contact .section-heading {
